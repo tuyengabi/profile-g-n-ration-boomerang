@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Profile-page</title>
 </head>
-<body>
-<main>
+<body class="">
+<main class="row col">
 
-    <aside>
+    <aside class="col-3 bg-light flex-aside">
 
         <article>
-            <img src="imgs/profile-photo.png" alt="">
-            <h2>Jane Doe</h2>
+            <img class="profile-photo" src="imgs/profile-photo.png" alt="">
+            <h2 class="username profile-heading2">Mona Lizard</h2>
             <p>Etudiante, médecine</p>
             <p>Lille, France</p>
         </article>
 
-        <article>
-            <h3>Compétences recherchées:</h3>
+        <article class="research-competences">
+            <h3 class="profile-heading3">Compétences recherchées:</h3>
 
-            <div>
-                <img src="" alt="">
+            <div class="research-competence gb-color-grey">
+                <img src="imgs/re-com1.png" alt="">
                 <p>
                     Compétence 2
                 </p>
             </div>
 
-            <div>
-                <img src="" alt="">
+            <div class="research-competence gb-color-grey">
+                <img src="imgs/re-com2.png" alt="">
                 <p>
                     Compétence 4
                 </p>
             </div>
 
-            <div>
-                <img src="" alt="">
+            <div class="research-competence gb-color-grey">
+                <img src="imgs/re-com3.png" alt="">
                 <p>
                     Compétence 4
                 </p>
@@ -53,7 +56,7 @@
 
     </aside>
 
-    <section>
+    <section class="col-9 gb-color-grey">
         <article>
             <img src="imgs/logo.png" alt="">
             <button>
@@ -62,23 +65,23 @@
         </article>
 
         <article>
-            <h3>Compétences proposées:</h3>
+            <h3 class="profile-heading3">Compétences proposées:</h3>
 
             <div>
                 <img src="" alt="">
-                <h2>Compétence 1</h2>
+                <h2 class="profile-heading2">Compétence 1</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
 
             <div>
                 <img src="" alt="">
-                <h2>Compétence 1</h2>
+                <h2 class="profile-heading2">Compétence 1</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             
             <div>
                 <img src="" alt="">
-                <h2>Compétence 1</h2>
+                <h2 class="profile-heading2">Compétence 1</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
         </article>
@@ -86,7 +89,7 @@
         <article>
             <div>
                 <div>
-                    <h3>Avis utilisateurs</h3>
+                    <h3 class="profile-heading3">Avis utilisateurs</h3>
                     <div>
                         <img src="imgs/profile-photo1.png" alt="">
                         <img src="imgs/profile-photo2.png" alt="">
@@ -97,14 +100,14 @@
                 </div>
 
                 <div>
-                    <h3>Loisirs:</h3>
+                    <h3 class="profile-heading3">Loisirs:</h3>
                     <p>Lorem ipsum dolor sit amet</p>
                 </div>
             </div>
 
             <div>
                 <div>
-                    <h3>Activité de Jane:</h3>
+                    <h3 class="profile-heading3">Activité de Jane:</h3>
                     <div></div>
                     <div>
                         <img src="" alt=""><p>Donné</p>
@@ -117,5 +120,10 @@
 
     </section>
 </main>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>
