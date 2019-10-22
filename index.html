@@ -1,141 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/profile.css">
+    <link rel="stylesheet" type="text/css" href="css/loading-bar.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Profile-page</title>
 </head>
+
 <body class="">
-<main class="row col">
+    <main class="row col">
 
-    <!-- FLEX ASIDE -->
-    <aside class="col-3 bg-white flex-aside">
+        <!-- FLEX ASIDE -->
+        <aside class="col-3 bg-white flex-aside">
 
-        <article class="profile-id">
-            <img class="profile-photo" src="imgs/profile-photo.png" alt="">
-            <h2 class="username profile-heading2">Mona Lizard</h2>
-            <p class="text-secondary">Etudiante, médecine
-                <br>
-                Lille, France
-            </p>
-        </article>
-
-        <article class="research-competences">
-            <h3 class="profile-heading3">Compétences recherchées:</h3>
-
-            <div class="research-competence gb-color-grey">
-                <img class="research-competence-icon" src="imgs/re-com1.png" alt="">
-                <p class="research-competence-info">
-                    Compétence 2
+            <article class="profile-id">
+                <img class="profile-photo" src="imgs/profile-photo.png" alt="">
+                <h2 class="username profile-heading2">Mona Lizard</h2>
+                <p class="text-secondary">Etudiante, médecine
+                    <br>
+                    Lille, France
                 </p>
-            </div>
+            </article>
 
-            <div class="research-competence gb-color-grey">
-                <img class="research-competence-icon" src="imgs/re-com2.png" alt="">
-                <p class="research-competence-info">
-                    Compétence 4
+            <article class="research-competences">
+                <h3 class="profile-heading3">Compétences recherchées:</h3>
+
+                <div class="research-competence gb-color-grey">
+                    <img class="research-competence-icon" src="imgs/re-com1.png" alt="">
+                    <p class="research-competence-info">
+                        Compétence 2
+                    </p>
+                </div>
+
+                <div class="research-competence gb-color-grey">
+                    <img class="research-competence-icon" src="imgs/re-com2.png" alt="">
+                    <p class="research-competence-info">
+                        Compétence 4
+                    </p>
+                </div>
+
+                <div class="research-competence gb-color-grey">
+                    <img class="research-competence-icon" src="imgs/re-com3.png" alt="">
+                    <p class="research-competence-info">
+                        Compétence 4
+                    </p>
+                </div>
+
+            </article>
+
+            <article class="profile-contact gb-color-grey">
+                <p class="text-secondary">
+                    Lorem ipsum dolor sit amet, <span>consectetuer</span> adipisicing elit. Accusamus doloribus
+                    voluptatum magnam.
                 </p>
-            </div>
+                <button class="profile-btn">Contacter Jane</button>
+            </article>
 
-            <div class="research-competence gb-color-grey">
-                <img class="research-competence-icon" src="imgs/re-com3.png" alt="">
-                <p class="research-competence-info">
-                    Compétence 4
-                </p>
-            </div>
+        </aside>
+        <!-- END FLEX ASIDE -->
 
-        </article>
-
-        <article class="profile-contact gb-color-grey">
-            <p class="text-secondary">
-                Lorem ipsum dolor sit amet, <span>consectetuer</span> adipisicing elit. Accusamus doloribus voluptatum magnam.
-            </p>
-            <button class="profile-btn">Contacter Jane</button>
-        </article>
-
-    </aside>
-<!-- END FLEX ASIDE -->
-
-<!-- PROFILE MAIN -->
-    <section class="profile-main col-9 gb-color-grey">
-        <article class="profile-navbar">
-            <div class="profile-logo">
-                <img class="logo text-center" src="imgs/logo.png" alt="">
-            </div>
-            <div>
-                <img class="profile-btn-hambuger" src="imgs/hambuger.png" alt="">
-            </div>
-        </article>
-
-        <article>
-            <h3 class="profile-heading3">Compétences proposées:</h3>
-
-            <div class="propose-competences">
-                <div class="propose-competence bg-white">
-                    <img class="propose-competence-icon" src="imgs/pro-com1.png" alt="">
-                    <h2 class="profile-heading2">Compétence 1</h2>
-                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <!-- PROFILE MAIN -->
+        <section class="profile-main col-9 gb-color-grey">
+            <article class="profile-navbar">
+                <div class="profile-logo">
+                    <img class="logo text-center" src="imgs/logo.png" alt="">
                 </div>
-    
-                <div class="propose-competence bg-white">
-                    <img class="propose-competence-icon" src="imgs/pro-com2.png" alt="">
-                    <h2 class="profile-heading2">Compétence 2</h2>
-                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                
-                <div class="propose-competence bg-white">
-                    <img class="propose-competence-icon" src="imgs/pro-com3.png" alt="">
-                    <h2 class="profile-heading2">Compétence 3</h2>
-                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-            </div>
-        </article>
-
-        <article class="profile-info">
-            <div class="compe_loisir">
-                <div class="profile-avis-et-loisir bg-white">
-                    <h3 class="profile-heading3">Avis utilisateurs:</h3>
-                    <div>
-                        <img class="user-avis-photo" src="imgs/circle-photo.png" alt="">
-                        <img class="user-avis-photo" src="imgs/circle-photo.png" alt="">
-                        <img class="user-avis-photo" src="imgs/circle-photo.png" alt="">
-                        <img class="user-avis-photo" src="imgs/circle-photo.png" alt="">
-                        <img class="user-avis-photo" src="imgs/circle-photo.png" alt="">
-                    </div>
-                </div>
-
-                <div class="profile-avis-et-loisir bg-white">
-                    <h3 class="profile-heading3">Loisirs:</h3>
-                    <p>Lorem ipsum dolor sit amet</p>
-                </div>
-            </div>
-
-            <div class="profile-activity col-5">
                 <div>
-                    <h3 class="profile-heading3">Activité de Jane:</h3>
-                    <div class="percentage-circle">
-
-                    </div>
-                    <div class="note">
-                        <div class="sm-square"></div><p>Donné</p>
-                        <div class="sm-square"></div><p>Reçu</p>
-                    </div>
-                    <p>Denière connexion: hier à <span>17h38</span></p>
+                    <img class="profile-btn-hambuger" src="imgs/hambuger.png" alt="">
                 </div>
-            </div>
-        </article>
+            </article>
 
-    </section>
-    <!-- END PROFILE MAIN -->
-</main>
+            <article>
+                <h3 class="profile-heading3">Compétences proposées:</h3>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+                <div class="propose-competences">
+                    <div class="propose-competence bg-white">
+                        <img class="propose-competence-icon" src="imgs/pro-com1.png" alt="">
+                        <h2 class="profile-heading2">Compétence 1</h2>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+
+                    <div class="propose-competence bg-white">
+                        <img class="propose-competence-icon" src="imgs/pro-com2.png" alt="">
+                        <h2 class="profile-heading2">Compétence 2</h2>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+
+                    <div class="propose-competence bg-white">
+                        <img class="propose-competence-icon" src="imgs/pro-com3.png" alt="">
+                        <h2 class="profile-heading2">Compétence 3</h2>
+                        <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="profile-info">
+                <div class="loisir">
+                    <div class="profile-avis-et-loisir bg-white">
+                        <h3 class="profile-heading3">Avis utilisateurs:</h3>
+                        <div>
+                            <img class="user-avis-photo" src="imgs/circle-photo.png" alt="">
+                            <img class="user-avis-photo" src="imgs/circle-photo.png" alt="">
+                            <img class="user-avis-photo" src="imgs/circle-photo.png" alt="">
+                            <img class="user-avis-photo" src="imgs/circle-photo.png" alt="">
+                            <img class="user-avis-photo" src="imgs/circle-photo.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="profile-avis-et-loisir bg-white">
+                        <h3 class="profile-heading3">Loisirs:</h3>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+
+                <div class="profile-activity">
+                    <div>
+                        <h3 class="profile-heading3">Activité de Jane:</h3>
+                        <div id="myItem1" class="ldBar label-center" data-preset="circle" data-value="63">
+                            <p class="ldBar-profile"></p>
+                        </div>
+                        <div class="note">
+                            <div class="sm-square"></div>
+                            <p>Donné</p>
+                            <div class="sm-square"></div>
+                            <p>Reçu</p>
+                        </div>
+                        <p>Denière connexion: hier à <span>17h38</span></p>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+        <!-- END PROFILE MAIN -->
+    </main>
+
+    <script>
+        var bar1 = new ldBar("#myItem1");
+        var bar2 = document.getElementById('myItem1').ldBar;
+        bar1.set(60);
+    </script>
+    <script type="text/javascript" src="js/loading-bar.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
 
 </body>
+
 </html>

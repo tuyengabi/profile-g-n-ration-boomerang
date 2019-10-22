@@ -9,7 +9,7 @@
 }
 
 .gb-color-grey {
-    background-color: #aeafb3;
+    background-color: #f0f0f0;
 }
 
 .profile-heading2 {
@@ -81,7 +81,7 @@
 }
 
 .profile-btn {
-    background-color: coral;
+    background-color: #ff6c00;
     border-radius: 20px;
     color: white;
     width: 70%;
@@ -137,17 +137,19 @@
     margin: 0 0 20px 0;
 }
 
-.compe_loisir{
-    width: 40%;
-}
 .profile-info {
     display: flex;
+}
+
+.loisir {
+    width: 45%;
 }
 
 .profile-avis-et-loisir {
     border-radius: 20px;
     margin: 20px 20px 0 0;
     padding: 20px;
+    width: 500px;
 }
 
 .user-avis-photo {
@@ -160,6 +162,7 @@
     border-radius: 20px;
     padding: 30px 30px 0 30px;
     margin-top: 20px;
+    width: 510px;
 }
 
 .note {

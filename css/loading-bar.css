@@ -1,0 +1,49 @@
+.ldBar {
+  position: relative;
+}
+
+.label-center {
+  width:50%;
+  height: 50%;
+  margin: auto;
+}
+
+.ldBar.label-center>.ldBar-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 3px #fff;
+}
+
+.ldBar-label:after {
+  content: "%";
+  display: inline;
+}
+
+.ldBar.no-percent .ldBar-label:after {
+  content: "";
+}
+
+.ldBar.label-center>.ldBar-profile {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 3px #fff;
+  color: #ff6c00;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900
+}
+
+.ldBar-profile:after {
+  content: "";
+  display: inline;
+}
+
+.ldBar.no-percent .ldBar-profile:after {
+  content: "";
+}
