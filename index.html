@@ -12,7 +12,8 @@
 <body class="">
 <main class="row col">
 
-    <aside class="col-3 bg-light flex-aside">
+    <!-- FLEX ASIDE -->
+    <aside class="col-3 bg-white flex-aside">
 
         <article class="profile-id">
             <img class="profile-photo" src="imgs/profile-photo.png" alt="">
@@ -57,43 +58,47 @@
         </article>
 
     </aside>
+<!-- END FLEX ASIDE -->
 
+<!-- PROFILE MAIN -->
     <section class="profile-main col-9 gb-color-grey">
-        <article>
-            <img class="profile-logo" src="imgs/logo.png" alt="">
-            <button>
-                <span></span>
-            </button>
+        <article class="profile-navbar">
+            <div class="profile-logo">
+                <img class="logo text-center" src="imgs/logo.png" alt="">
+            </div>
+            <div>
+                <img class="profile-btn-hambuger" src="imgs/hambuger.png" alt="">
+            </div>
         </article>
 
         <article>
             <h3 class="profile-heading3">Compétences proposées:</h3>
 
             <div class="propose-competences">
-                <div class="propose-competence col-3 bg-light">
-                    <img src="imgs/pro-com1.png" alt="">
+                <div class="propose-competence bg-white">
+                    <img class="propose-competence-icon" src="imgs/pro-com1.png" alt="">
                     <h2 class="profile-heading2">Compétence 1</h2>
                     <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
     
-                <div class="propose-competence col-3 bg-light">
-                    <img src="imgs/pro-com2.png" alt="">
-                    <h2 class="profile-heading2">Compétence 1</h2>
+                <div class="propose-competence bg-white">
+                    <img class="propose-competence-icon" src="imgs/pro-com2.png" alt="">
+                    <h2 class="profile-heading2">Compétence 2</h2>
                     <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 
-                <div class="propose-competence col-3 bg-light">
-                    <img src="imgs/pro-com3.png" alt="">
-                    <h2 class="profile-heading2">Compétence 1</h2>
+                <div class="propose-competence bg-white">
+                    <img class="propose-competence-icon" src="imgs/pro-com3.png" alt="">
+                    <h2 class="profile-heading2">Compétence 3</h2>
                     <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
             </div>
         </article>
 
         <article class="profile-info">
-            <div>
-                <div class="profile-avis-et-loisir bg-light">
-                    <h3 class="profile-heading3">Avis utilisateurs</h3>
+            <div class="compe_loisir">
+                <div class="profile-avis-et-loisir bg-white">
+                    <h3 class="profile-heading3">Avis utilisateurs:</h3>
                     <div>
                         <img class="user-avis-photo" src="imgs/circle-photo.png" alt="">
                         <img class="user-avis-photo" src="imgs/circle-photo.png" alt="">
@@ -103,19 +108,21 @@
                     </div>
                 </div>
 
-                <div class="profile-avis-et-loisir bg-light">
+                <div class="profile-avis-et-loisir bg-white">
                     <h3 class="profile-heading3">Loisirs:</h3>
                     <p>Lorem ipsum dolor sit amet</p>
                 </div>
             </div>
 
-            <div>
+            <div class="profile-activity col-5">
                 <div>
                     <h3 class="profile-heading3">Activité de Jane:</h3>
-                    <div></div>
-                    <div>
-                        <img src="" alt=""><p>Donné</p>
-                        <img src="" alt=""><p>Reçu</p>
+                    <div class="percentage-circle">
+
+                    </div>
+                    <div class="note">
+                        <div class="sm-square"></div><p>Donné</p>
+                        <div class="sm-square"></div><p>Reçu</p>
                     </div>
                     <p>Denière connexion: hier à <span>17h38</span></p>
                 </div>
@@ -123,6 +130,7 @@
         </article>
 
     </section>
+    <!-- END PROFILE MAIN -->
 </main>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

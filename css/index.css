@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Verdana', sans-serif;
 }
 
 .body {
@@ -9,15 +9,15 @@
 }
 
 .gb-color-grey {
-    background-color: #9d9d9d;
+    background-color: #aeafb3;
 }
 
 .profile-heading2 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 .profile-heading3 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 
 }
 
@@ -94,14 +94,31 @@
 
 /* PROFILE MAIN */
 
-.profile-logo {
-    height: 140px;
-}
-
 .profile-main {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    padding: 0 0 0 50px;
+}
+
+.profile-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0 50px 0 0;
+}
+
+.profile-btn-hambuger {
+    height: 60px;
+
+}
+
+.profile-logo {
+    display: block;
+    margin: auto;
+}
+
+.logo {
+    height: 220px;
 }
 
 .propose-competences {
@@ -109,19 +126,50 @@
 }
 
 .propose-competence {
+    width: 330px;
     border-radius: 20px;
     padding: 30px;
-    margin: 0 10px 10px 10px;
+    margin: 0 20px 0px 0;
 }
 
+.propose-competence-icon {
+    height: 60px;
+    margin: 0 0 20px 0;
+}
+
+.compe_loisir{
+    width: 40%;
+}
 .profile-info {
     display: flex;
 }
 
 .profile-avis-et-loisir {
     border-radius: 20px;
+    margin: 20px 20px 0 0;
+    padding: 20px;
 }
 
 .user-avis-photo {
-    height: 40px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.profile-activity {
+    background-color: #00dec6;
+    border-radius: 20px;
+    padding: 30px 30px 0 30px;
+    margin-top: 20px;
+}
+
+.note {
+    width: 70px;
+    height: 50px;
+
+}
+
+.ms-square {
+    width: 20px;
+    height: 20px;
+    background-color: #ff6c00;
 }
