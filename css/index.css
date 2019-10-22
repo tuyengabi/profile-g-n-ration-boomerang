@@ -8,34 +8,32 @@
     
 }
 
-.flex-aside {
-    padding: 40px 0 0 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.username {
-    padding: 15px 0 0 0;
+.gb-color-grey {
+    background-color: #9d9d9d;
 }
 
 .profile-heading2 {
     font-size: 1.7rem;
 }
 
-.research-competence {
-    display: flex;
-    flex-direction: row;
-    text-align: left;
-    margin: 10px;
-    padding: 15px 0 15px 30px;
-    border-radius: 7px;
+.profile-heading3 {
+    font-size: 1.4rem;
+
 }
 
-.gb-color-grey {
-    background-color: #eee;
+/* FLEX ASIDE */
+.flex-aside {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.profile-id {
+    padding: 30px 0 20px 0;
 }
 
 .profile-photo {
@@ -43,7 +41,87 @@
     clip-path: circle(50% at 50% 50%);
 }
 
-.profile-heading3 {
-    font-size: 1.5rem;
+.username {
+    padding: 15px 0 0 0;
+}
 
+.research-competences {
+    width: 80%;
+}
+
+.research-competence {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    margin: 10px 0 0 -2px;
+    padding: 10px 0 10px 30px;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.research-competence-icon {
+    height: 36px;
+}
+
+.research-competence-info {
+    margin: 10px 0 0 20px;
+}
+
+.profile-contact {
+    border-radius: 22px;
+    width: 80%;
+    margin: 30px 0 0 0;
+    padding: 30px 30px 20px 30px;
+}
+
+.span {
+    font-weight: bold !important;
+    color: #1d1d1d !important;
+}
+
+.profile-btn {
+    background-color: coral;
+    border-radius: 20px;
+    color: white;
+    width: 70%;
+    height: 40px;
+}
+
+/* END FLEX ASIDE */
+
+
+
+/* PROFILE MAIN */
+
+.profile-logo {
+    height: 140px;
+}
+
+.profile-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.propose-competences {
+    display: flex;
+}
+
+.propose-competence {
+    border-radius: 20px;
+    padding: 30px;
+    margin: 0 10px 10px 10px;
+}
+
+.profile-info {
+    display: flex;
+}
+
+.profile-avis-et-loisir {
+    border-radius: 20px;
+}
+
+.user-avis-photo {
+    height: 40px;
 }
