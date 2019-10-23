@@ -4,7 +4,10 @@
     font-family: 'Verdana', sans-serif;
 }
 
-.body {}
+.main {
+    height: 100vh;
+    width: 100vw;
+}
 
 .gb-color-grey {
     background-color: #f0f0f0;
@@ -21,13 +24,11 @@
 
 /* FLEX ASIDE */
 .flex-aside {
-
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100vh;
+    padding-top: 30px;
 }
 
 .profile-id {
@@ -83,7 +84,7 @@
     border-radius: 20px;
     color: white;
     width: 70%;
-    height: 40px;
+    height: 34px;
     border: none;
 }
 
@@ -104,7 +105,6 @@
 .profile-navbar {
     display: flex;
     align-items: center;
-    justify-content: end;
     padding: 0 50px 0 0;
 }
 
@@ -119,7 +119,7 @@
 }
 
 .logo {
-    height: 220px;
+    height: 180px;
 }
 
 .propose-competences {
@@ -199,6 +199,5 @@
 
 .activity-date {
     font-size: 1rem;
-
     text-align: right;
 }
