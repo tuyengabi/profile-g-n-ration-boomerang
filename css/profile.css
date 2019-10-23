@@ -241,11 +241,99 @@
         margin-right: 10px;
     }
 
+    .activity-date {
+        font-size: 0.8rem;
+    }
+
 }
 
 
 @media screen and ((min-width: 0px) and (max-width: 900px)) {
+
     .profile-body {
         flex-direction: column;
+    }
+
+    .flex-aside {
+        width: 100%;
+    }
+
+    .profile-navbar {
+        display: none;
+    }
+
+    .profile-main {
+        padding: 50px 0 0 0;
+        width: 100%;
+        background-color: white;
+    }
+
+    .profile-competence-propose {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .propose-competences {
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .propose-competence {
+    display: flex;
+    flex-direction: row;
+    background-color: #f0f0f0 !important;
+    align-items: center;
+    margin: 5px 0 5px 39px;
+    padding: 10px 0 0 30px;
+    border-radius: 7px;
+    width: 80%;
+    }
+
+    .propose-competence-icon {
+        height: 36px;
+    }
+
+    .text-mobile {
+        display: none;
+    }
+
+    .profile-heading2-mobile {
+        font-size: 1rem;
+        padding: 0 0 0 20px;
+    }
+
+    .profile-info {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+        background-color: #f0f0f0;
+    }
+
+    .profile-info-activity {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        padding: 30px 0 0 0;
+        
+    }
+
+    .profile-avis-et-loisir {
+        width: 80%;
+    }
+
+    .user-avis-photo {
+        height: 36px;
+    }
+
+    .profile-activity {
+        width: 80%;
+        text-align: center;
+        margin: 40px auto;
     }
 }
