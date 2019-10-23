@@ -100,6 +100,7 @@
     width: 70%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding: 0 0 0 50px;
 }
 
@@ -248,7 +249,7 @@
 }
 
 
-@media screen and ((min-width: 0px) and (max-width: 900px)) {
+@media screen and  (max-width: 1024px)) {
 
     .profile-body {
         flex-direction: column;
