@@ -71,7 +71,7 @@
 .profile-contact {
     border-radius: 22px;
     width: 80%;
-    margin: 30px 0 0 0;
+    margin: 10px 0 30px 0;
     padding: 30px 30px 20px 30px;
 }
 
@@ -86,7 +86,10 @@
     color: white;
     width: 70%;
     height: 40px;
+    border:none;
 }
+
+/* @media screen and  */
 
 /* END FLEX ASIDE */
 
@@ -147,7 +150,7 @@
 
 .profile-avis-et-loisir {
     border-radius: 20px;
-    margin: 20px 20px 0 0;
+    margin: 20px 10px 0 0;
     padding: 20px;
     width: 500px;
 }
@@ -163,7 +166,7 @@
     border-radius: 20px;
     padding: 30px 30px 0 30px;
     margin-top: 20px;
-    width: 510px;
+    width: 40%;
 }
 
 .profile-progress-bar {
