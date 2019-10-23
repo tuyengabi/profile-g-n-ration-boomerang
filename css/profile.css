@@ -85,15 +85,9 @@
     background-color: #ff6c00;
     border-radius: 20px;
     color: white;
-    width: 50%;
+    width: 70%;
     height: 34px;
     border: none;
-}
-
-@media screen and ((min-width: 0px) and (max-width: 850px)) {
-    .profile-body {
-        flex-direction: column;
-    }
 }
 
 /* END FLEX ASIDE */
@@ -210,4 +204,48 @@
 .activity-date {
     font-size: 1rem;
     text-align: right;
+}
+
+
+@media screen and ((min-width: 901px) and (max-width: 1366px)) {
+
+    .profile-body {
+        font-size: 0.9rem;
+    }
+
+    .profile-photo {
+        height: 160px;
+        clip-path: circle(50% at 50% 50%);
+    }
+
+    .profile-heading2 {
+        font-size: 1.3rem;
+    }
+    
+    .profile-heading3 {
+        font-size: 1.1rem;
+    
+    }
+
+    .profile-contact {
+        margin: 0 0 30px 0;
+        padding: 20px;
+    }
+
+    .logo {
+        height: 160px;
+    }
+
+    .user-avis-photo {
+        height: 40px;
+        margin-right: 10px;
+    }
+
+}
+
+
+@media screen and ((min-width: 0px) and (max-width: 900px)) {
+    .profile-body {
+        flex-direction: column;
+    }
 }
