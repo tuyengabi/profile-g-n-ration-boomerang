@@ -1,1 +1,12 @@
-# profile-g-n-ration-boomerang
+# La page Profile du site Génération Boomerang
+--------------------------
+
+### Technique utiliser:
+* HTML vanilla
+* CSS vanilla
+* Bootstrap Library
+
+* Responsive 
+* Semantique
+
+ 
