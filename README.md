@@ -8,5 +8,6 @@
 
 * Responsive 
 * Semantique
+* loading.io/progress/
 
  
